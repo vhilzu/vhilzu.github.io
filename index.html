@@ -1,35 +1,124 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        body {text-align: center;}
+
+/* Header/logo Title */
+.header {
+  padding: 6px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1% 4%;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.17);
+  color: black;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+    margin-right: 25%;
+    margin-left: 25%
+}
+
+p, address {
+    color: white;
+}
+
+h1, h2, h3, h4, h5 {
+    color: rgb(150, 150, 150);
+}
+
+.link {
+    color: aqua;
+}
+    </style>
+
     <title>Ville Suhonen</title>    
 </head>
+
 <body>
-<h1>Villen Esittely</h1>
-<p> Olen Ville Suhonen, itsenäinen tutkija, elinikäinen oppija, näppäimistön kurittaja, digishamaani & totuuden etsijä!</p>
-<h2>Opiskeluni historia</h2>
-<p> Käytän suurimman osan ajastani opiskeluun. Minulla ei ole toisen asteen tutkintoa, vaikka
-        olenkin opiskellut noin ~300op ammattikouluopintoja mm. datanomi-, laborantti- ja elintarvike-aloilla. Syy diplomin puutteeseen on ollut hitaanlainen, peukaloiden pyörittelyn
-        kaltainen opiskelutahti, jonka opintosuunnitelmat ovat tarjonneet. Näitä kompensoimaan olen perehtynyt omalla ajalla esim. kryptovaluuttoihin, alkutuotantoon, musiikin tekemiseen ja -miksaamiseen, komputationaalisen taiteen saloihin sekä muihin pääasiassa tietokoneisiin liittyvään toimintoihin. </p><br>
+    <div class="header">
+        <h1>Opiskeluni</h1>
+        <p></p>
+      </div>
+      
+
+    <div class="navbar">
+        <a href="index.html">Opiskeluni</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="harrastukset.html">Harrastukset</a>
+      </div>
+
+      <div class="row">
+        <p></p>
+          <img src="naamakuva.jpg" style="height: 256px; height: 256px;">
+
+          <h3>Esittely</h3>
+          <p> Olen Ville Suhonen, itsenäinen tutkija, elinikäinen oppija, näppäimistön kurittaja, digishamaani & totuuden etsijä!</p>
+
+          <h3>Opiskeluni historia</h3>
+          <p> Käytän suurimman osan ajastani eri asioiden opiskeluun ja tutkimiseen. Olenkin opiskellut huvikseni ~300op ammattikouluopintoja mm. datanomi-, laboratorio- ja elintarvike -aloilla. <br><br>
+            Olen perehtynyt omalla ajalla esim. kryptovaluuttoihin, alkutuotantoon, musiikin tekemiseen ja -miksaamiseen, komputationaalisen taiteen saloihin sekä muihin pääasiassa tietokoneisiin liittyvään toimintoihin. </p>
+        </div>
+
+    <h3>Nykytilanne +-1 vuotta</h3>
+    <p>    Päätin, että otan elämästäni otteen; ilmoittaudun opiskelemaan <a href="https://www.utu.fi/fi/avoin-yliopisto-opetus" target ="_blank" class="link">avoimen yliopiston</a> 
+        ja <a href="https://www.jamk.fi/fi/hae-opiskelemaan/avoin" target ="_blank" class="link">-korkeakoulun kirjoille</a>. Omatempoiseen opiskeluun otin lähtölaukauksen omatekoisella "korona-lockdownilla", jonka aikana muutin Turusta pirkanmaalle pieneen kylään ja 
+        jossa kävin läpi JAMK:in tarjontaa <a href="https://amp.jamk.fi/asio/kurssiilmo/jamk/?asio=Yzc2MzEwO3M2N2QwNzQ4N2QzOTRmMDc5NjZhMDAyZDQxNzQ1YTYxYjtma3Vyc3NpbnRpZWRvdDtnQUE7cg%3D%3D" target ="_blank" class="link">kyberturvallisuudesta</a>, <a href="https://gitlab.labranet.jamk.fi/jamkit/moduulit-2021-2022/-/issues/59" target ="_blank" class="link">data-analytiikasta ja tekoälystä</a>.<br><br>
+        Vuoden aikana sain syvennettyä ymmärrystäni tietokoneista,
+        algoritmeista, ohjelmoinnista, käyttöjärjestelmistä, virtualisoinnista ja kaikennäköisistä työkaluista, joista suurimmasta osasta olin kuullut 
+        <a href="https://www.youtube.com/playlist?list=PLl0UcvZXWeudoSSZ8iI60O8AHblX-l5TG" target ="_blank" class="link">Youtuben filtterikuplani</a> takia aiemminkin, mutta joita en kuitenkaan ollut jaksanut 
+        koneelleni asentaa tai sen enempää <em>tutkia</em>. 
+        Nyt oli kuitenkin vihdoin aikaa perehtyä näihin kiinnostaviin työkaluihin.<br><br>
+
+        Vuoden syventymisen jälkeen päätin, että <i>tutkinto</i> on suoritettava, joten hain Jyväskylän ammattikorkeakouluun tieto- ja viestintätekniikan insinöörin polkuopintoihin sekä Turun yliopiston tekoälyakatemiaan.
+        Lukuvuosi tärähti käyntiin 01.09.2022, joten tästä lähtien on tarkoitus paukuttaa maaliin ~3 opintopistettä viikossa kevääseen asti. <br><br>
         
-<h3>Nykytilanne +-1 vuotta</h3>
-    Päätin, että otan elämästäni otteen; ilmoittaudun opiskelemaan <a href="https://www.utu.fi/fi/avoin-yliopisto-opetus" target ="_blank">avoimen yliopiston</a> 
-    ja <a href="https://www.jamk.fi/fi/hae-opiskelemaan/avoin" target ="_blank">-korkeakoulun kirjoille</a>. Omatempoiseen opiskeluun otin lähtölaukauksen omatekoisella "korona-lockdownilla", jonka aikana muutin Turusta pirkanmaalle pieneen kylään ja 
-    jossa kävin läpi JAMK:in tarjontaa <a href="https://amp.jamk.fi/asio/kurssiilmo/jamk/?asio=Yzc2MzEwO3M2N2QwNzQ4N2QzOTRmMDc5NjZhMDAyZDQxNzQ1YTYxYjtma3Vyc3NpbnRpZWRvdDtnQUE7cg%3D%3D" target ="_blank">kyberturvallisuudesta</a>, <a href="https://gitlab.labranet.jamk.fi/jamkit/moduulit-2021-2022/-/issues/59" target ="_blank">data-analytiikasta ja tekoälystä</a>.<br>
-    Vuoden aikana sain syvennettyä ymmärrystäni tietokoneista,
-    algoritmeista, ohjelmoinnista, käyttöjärjestelmistä, virtualisoinnista ja kaikennäköisistä työkaluista, joista suurimmasta osasta olin kuullut <a href="https://www.youtube.com/playlist?list=PLl0UcvZXWeudoSSZ8iI60O8AHblX-l5TG" target ="_blank">Youtuben filtterikuplani</a> takia aiemminkin, mutta joita en kuitenkaan ollut jaksanut 
-    koneelleni asentaa tai sen enempää <em>tutkia</em>. Nyt oli kuitenkin vihdoin aikaa perehtyä näihin kiinnostaviin työkaluihin.<br>
-    <br>
-    Vuoden syventymisen jälkeen päätin, että <i>tutkinto</i> on suoritettava, joten hain Jyväskylän ammattikorkeakouluun tieto- ja viestintätekniikan insinöörin polkuopintoihin sekä Turun yliopiston tekoälyakatemiaan.
-    Lukuvuosi tärähti käyntiin eilen, joten tästä lähtien on tarkoitus paukuttaa maaliin ~3 opintopistettä viikossa. Tavoitteenani on suorittaa polkuopinnot yli 3 keskiarvolla. Haluan kuitenkin samalla seurata tekoälyä ja sen kehitystä toisesta näkövinkkelistä yliopiston puolella, sillä uskon ylimääräisestä teorian tuntemuksesta olevan yllättävän paljon hyötyä tulevaisuudessa.<br>
-<h4>Tulevaisuus</h4>
-    Riippuen työmahdollisuuksista valmistumisen jälkeen, <strong>en näkisi ollenkaan mahdottomana ajatuksena</strong> jatkaa opintoja yliopiston puolella kyberturvallisuuden maisteritutkinnon parissa. Näen tässä kohtaa, että tekoäly ja kyberturvallisuus sekä moni muukin ohjelmoinnin piirissä kulkeva ala kulkee yhtä matkaa kohti automatisoinnin kirkastamaa tulevaisuutta :)
-    <ul>
+        Tavoitteenani on suorittaa polkuopinnot yli 3 keskiarvolla. Haluan kuitenkin samalla seurata tekoälyä ja sen kehitystä toisesta näkövinkkelistä yliopiston puolella, sillä uskon ylimääräisestä teorian tuntemuksesta olevan yllättävän paljon hyötyä tulevaisuudessa.</p><br>
+    <h4>Tulevaisuus</h4>
+    <p> Riippuen työmahdollisuuksista valmistumisen jälkeen, <strong> en näkisi ollenkaan mahdottomana ajatuksena</strong> jatkaa opintoja yliopiston puolella kyberturvallisuuden maisteritutkinnon parissa. Näen tässä kohtaa, että tekoäly ja kyberturvallisuus sekä moni muukin ohjelmoinnin piiriin kuuluva ala kulkee yhtä matkaa kohti automatisoinnin kirkastamaa tulevaisuutta :)</p>
+        <ul>
         <p>Opiskeluni linkit:</p>
-        <li><a href="https://www.jamk.fi/fi/projekti/tekoaly-ja-data-analytiikka" target ="_blank">Data-analytiikka ja tekoäly</a></li>
-        <li><a href="https://amp.jamk.fi/asio/kurssiilmo/jamk/?asio=Yzc2MzEwO3M2N2QwNzQ4N2QzOTRmMDc5NjZhMDAyZDQxNzQ1YTYxYjtma3Vyc3NpbnRpZWRvdDtnQUE7cg%3D%3D" target ="_blank">Kyberturvallisuus</a></li>        
-        <li><a href="https://www.utu.fi/fi/avoin-yliopisto-opetus/opintotarjonta/tekoalyakatemia/tekoaly" target ="_blank">Tekoälyakatemia</a></li>
-        <li><a href="https://github.com/NettiradioX" target ="_blank"> Vapaaehtoisradion Github, jossa teen nettisivuja, Discord-botteja jne.</a></li>
-        <li><a href="https://soundcloud.com/heonsun/tracks" target ="_blank">DJ hommia</a></li>
+        <li><a href="https://www.jamk.fi/fi/projekti/tekoaly-ja-data-analytiikka" target ="_blank" class="link">Data-analytiikka ja tekoäly</a></li>
+        <li><a href="https://amp.jamk.fi/asio/kurssiilmo/jamk/?asio=Yzc2MzEwO3M2N2QwNzQ4N2QzOTRmMDc5NjZhMDAyZDQxNzQ1YTYxYjtma3Vyc3NpbnRpZWRvdDtnQUE7cg%3D%3D" target ="_blank" class="link">Kyberturvallisuus</a></li>        
+        <li><a href="https://www.utu.fi/fi/avoin-yliopisto-opetus/opintotarjonta/tekoalyakatemia/tekoaly" target ="_blank" class="link">Tekoälyakatemia</a></li>
+        <li><a href="https://github.com/NettiradioX" target ="_blank" class="link"> Vapaaehtoisradion Github, jossa teen nettisivuja, Discord-botteja jne.</a></li>
     </ul>
+
+    <h5>Yhteystiedot</h5>
+    <address>
+        Ville Suhonen <br>
+        <a href="mailto:AB0854@student.jamk.fi" class="link">AB0854@student.jamk.fi</a><br>
+        <a href="https://github.com/NettiradioX" target="_blank" class="link">Github</a>
+    </address>
+    
 </body>
 </html>
